@@ -1,0 +1,23 @@
+{
+  "name": "many_words",
+  "description": "",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "build": "tsc",
+    "hello": "node dist/src/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgundo/many_words.git"
+  },
+  "author": "Gundo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kgundo/many_words/issues"
+  },
+  "homepage": "https://github.com/kgundo/many_words#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
