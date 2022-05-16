@@ -1,0 +1,12 @@
+require('dotenv').config();
+const path = require('path');
+module.exports = {
+  config: path.resolve('dist', 'database','mysql','config','config.js'),
+  'seeders-path': path.resolve('dist','database','mysql', 'seeders'),
+  'migrations-path': path.resolve(
+    'dist',
+    'database',
+    'mysql',
+    'migrations',
+  )
+};

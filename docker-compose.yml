@@ -7,7 +7,7 @@ services:
         networks:
             - api-network
         ports:
-            - '33064:3306'
+            - '33069:3306'
         volumes:
             - ./data_dir:/var/lib/mysql
         environment:
